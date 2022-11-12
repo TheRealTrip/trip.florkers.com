@@ -1,0 +1,124 @@
+/* import font from /assets/fonts/Rajdhani-Medium.ttf */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Rajdhani&display=swap');
+
+:root {
+    --color-primary: #2f307f;
+}
+
+
+body {
+    background: black;
+}
+
+/* .background {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+} */
+
+.links {
+    text-align: center;
+    color: #EDF5E1;
+}
+
+button.links {
+    background: #FF00FF;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.5em;
+}
+
+
+
+.center-middle {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.social-logo {
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 40px;
+}
+
+.content.box{
+    /* border color  */
+    border: 1px solid var(--color-primary);
+}
+
+@-webkit-keyframes social-logo {
+    16.65% {
+      -webkit-transform: translateY(8px);
+      transform: translateY(8px);
+    }
+    33.3% {
+      -webkit-transform: translateY(-6px);
+      transform: translateY(-6px);
+    }
+    49.95% {
+      -webkit-transform: translateY(4px);
+      transform: translateY(4px);
+    }
+    66.6% {
+      -webkit-transform: translateY(-2px);
+      transform: translateY(-2px);
+    }
+    83.25% {
+      -webkit-transform: translateY(1px);
+      transform: translateY(1px);
+    }
+    100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+  }
+  @keyframes social-logo {
+    16.65% {
+      -webkit-transform: translateY(8px);
+      transform: translateY(8px);
+    }
+    33.3% {
+      -webkit-transform: translateY(-6px);
+      transform: translateY(-6px);
+    }
+    49.95% {
+      -webkit-transform: translateY(4px);
+      transform: translateY(4px);
+    }
+    66.6% {
+      -webkit-transform: translateY(-2px);
+      transform: translateY(-2px);
+    }
+    83.25% {
+      -webkit-transform: translateY(1px);
+      transform: translateY(1px);
+    }
+    100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+  }
+  .social-logo {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  }
+  .social-logo:hover, .social-logo:focus, .social-logo:active {
+    -webkit-animation-name: social-logo;
+    animation-name: social-logo;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+  }
